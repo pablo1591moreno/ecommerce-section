@@ -1,0 +1,35 @@
+.sumaResta { 
+  background-color: rgb(233, 230, 230); 
+    height: 40px;
+    width: 190px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    
+  }
+
+  .botonResta, .botonSuma{   
+    background-color:transparent;
+    width: 15px;
+    font-weight: bold;
+    font-size: 25px;  
+    border: none;
+    border-radius: 5px; 
+}
+
+  .agregarCarrito{
+    background-color: rgb(233, 230, 230); 
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    width: 190px;  
+}
+
+.boton{    
+    margin-top: 20px;  
+             
+}

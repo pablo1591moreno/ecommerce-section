@@ -1,0 +1,33 @@
+.cajaCarrito{ 
+   padding: 10px 10px 10px 52%;   
+   
+}
+
+ 
+button.botonCarrito  {      
+   display: flex;
+   align-items: center;
+   background-color: rgba(255, 255, 255, 0);   
+   border: 1px solid #ffffff7c;
+   border-radius: 5px;
+   transition-duration: 0.5s;     
+}
+
+
+button.botonCarrito:hover {
+   background-color: #ffffff79; 
+   color: white;
+}
+
+
+  .unidadesEnCarrito{
+   
+      font-size: 18px;
+      font-weight:normal;
+      color: white;   
+      padding: 5px;           
+  }
+  
+.nidadCarritoCero{
+   display:none;
+}
