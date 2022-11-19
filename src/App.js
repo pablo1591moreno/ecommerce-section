@@ -12,6 +12,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <CartProvider>
+
       <BrowserRouter>
 
         <div className='ecommers'>
@@ -29,6 +30,7 @@ function App() {
         </div>
 
       </BrowserRouter>
+      
     </CartProvider>
   );
 };
