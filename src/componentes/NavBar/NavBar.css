@@ -2,17 +2,25 @@
 /*------------------------NAV-BAR---------------------*/
 
 .nav{
+  margin-top: 30px;
   width: 100%;
   height: 65px;  
   line-height: 65px;
-  text-align: center;
-  background-color: #060624da;
+  text-align: center;  
+  margin-bottom: 50px;
 }
 
-.nav div.logo{
+.nav div.logo h1{
   width: 180px;
   height: 0px;
   position: absolute;
+}
+
+.snake{
+  color: white;
+  margin: 0;
+  font-size: 40px;
+  margin-left: 10px;
 }
 
 .nav div.logo a{
@@ -42,17 +50,19 @@
 }
 
 .nav div.mainList ul li {
-  text-decoration: none;
   color: #fff;  
   text-transform: uppercase;
+  font-weight: bold;  
 }
 
 
 .nav div.mainList ul li :hover{
-  color: #e2e0e0;
+  color: #e2e0e0;  
 }
 
-
+a {
+  text-decoration: none;
+}
 
 .spinner {
   border: 4px solid rgba(0, 0, 0, 0.1);

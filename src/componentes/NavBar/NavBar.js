@@ -10,7 +10,7 @@ const Barra = () => {
         <nav className="nav">
 
             <div className="logo">
-                <img src={snake} width={"130px"} alt="Logo" />
+               <h1 className='snake'>SNAKE</h1>
             </div>
 
             <div>

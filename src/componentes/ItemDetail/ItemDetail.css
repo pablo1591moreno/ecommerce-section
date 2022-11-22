@@ -10,9 +10,7 @@
     align-items: center;
     width: 80%;  
     height: 500px;       
-    border-radius: 20px;   
-    background-color: white;
-    box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);    
+    border-radius: 20px;     
 }
 
 .detalleDeProducto img{
@@ -20,6 +18,24 @@
   width:400px;
   height:400px;
   border-radius:  10px 10px 10px 10px;
-  margin: 60px;
-  
+  margin: 60px 20px 60px 60px;
+  box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);   
 }
+
+.detalleDeProducto h1{
+ font-size: 40px;
+ color: white;
+ padding: 0;
+ margin: 0;
+}
+
+.detalleDeProducto h2{
+    font-size: 30px;
+    color: white;    
+}
+
+.detalleDeProducto p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+   }
