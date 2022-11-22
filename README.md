@@ -1,6 +1,6 @@
-# Ecommerce
+# Ecommerce (en proceso)
 
-Ecommerce basico 
+Ecommerce
 
 ## Recursos utilizados
 
@@ -8,3 +8,4 @@ Ecommerce basico
 - CSS
 - JAVASCRIPT
 - REACT JS 
+- FIREBASE (consumo de datos)
