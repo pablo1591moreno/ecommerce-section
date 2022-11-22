@@ -1,6 +1,6 @@
 # Ecommerce (en proceso)
 
-Ecommerce
+Ecommerce con estetica minimalista 
 
 ## Recursos utilizados
 
