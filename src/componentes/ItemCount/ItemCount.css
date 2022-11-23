@@ -1,20 +1,21 @@
 .sumaResta { 
   background-color: rgb(255, 255, 255); 
     height: 40px;
-    width: 190px;
+    width: 180px;
     display: flex; 
     justify-content: center;
     align-items: center;
     gap: 40px;
-    border-radius: 60px;    
+    border-radius: 10px;    
   }
   
    .sumaResta h2{
-    color: rgb(0, 0, 0);
+    color: rgb(136, 116, 209);
    }
 
   .botonResta, .botonSuma{   
     background-color:transparent;
+    color: rgb(136, 116, 209);
     width: 15px;
     font-weight: bold;
     font-size: 25px;  
@@ -23,15 +24,17 @@
 
   .agregarCarrito{
     background-color: rgb(255, 255, 255); 
+    color: rgb(136, 116, 209);
     border: none;
-    border-radius: 60px;
+    border-radius: 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
-    width: 190px;  
+    width: 180px;  
 }
 
 .boton{    
     margin-top: 20px;  
              
 }
+

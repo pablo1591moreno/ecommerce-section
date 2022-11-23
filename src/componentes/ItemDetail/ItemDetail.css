@@ -1,41 +1,50 @@
-
-.contenedorDetalles{
-    margin: 35px;
+.contenedorDetalles{    
     display: flex;   
     justify-content: center;
+    width: 100%;
 }
 
 .detalleDeProducto{
-    display: flex;   
-    align-items: center;
-    width: 80%;  
-    height: 500px;       
-    border-radius: 20px;     
+    margin-top: 20px;
+    display: flex;     
+        
 }
 
 .detalleDeProducto img{
-    object-fit: cover;
+    object-fit:cover;
   width:400px;
-  height:400px;
-  border-radius:  10px 10px 10px 10px;
-  margin: 60px 20px 60px 60px;
+  height:300px;
+  border-radius: 10px;
+  margin: 0 30px 0 0;
   box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);   
 }
 
-.detalleDeProducto h1{
- font-size: 40px;
+.detalleTextoProductos{
+    width: 400px;    
+}
+
+.detalleTextoProductos h1{
+ font-size: 35px;
  color: white;
  padding: 0;
  margin: 0;
 }
 
-.detalleDeProducto h2{
-    font-size: 30px;
-    color: white;    
+.detalleTextoProductos h2{
+    font-size: 25px;
+    color: white;  
+    padding: 0;
+    margin: 10px 0;  
 }
 
-.detalleDeProducto p{
-    font-size: 20px;
+.detalleTextoProductos p{
+    font-size: 18px;
     color: white;
     font-weight: bold;
+    padding: 0;
+    margin: 10px 0;
    }
+
+.detalleTextoProductos .detalles{    
+    word-wrap: break-word
+}

@@ -1,6 +1,3 @@
-
-/*------------------------NAV-BAR---------------------*/
-
 .nav{
   margin-top: 30px;
   width: 100%;
@@ -11,8 +8,7 @@
 
 .nav div.logo h1{
   width: 180px;  
-  position: absolute;
-  
+  position: absolute;  
 }
 
 .snake{
@@ -27,7 +23,6 @@
   font-size: 1.8em;
   text-transform: uppercase;
 }
-
 
 .nav div.mainList{  
   float: right;

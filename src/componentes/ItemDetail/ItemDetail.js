@@ -25,7 +25,7 @@ const ItemDetail = ({ itemDetail, }) => {
                 <h2>${itemDetail.precio}</h2>
                 <h2>Stock: {itemDetail.stock} </h2>
                 <p>Marca: {itemDetail.marca}</p>
-                <p>Detalles: {itemDetail.detalles}</p>
+                <p className='detalles' >Detalles: {itemDetail.detalles}</p>
                 <Contador stock={itemDetail.stock} initial={1} onAdd={onAdd} />
             </div>
 

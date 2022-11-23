@@ -37,7 +37,7 @@ const ItemListContainer = ({ itemList }) => {
   return (
     <div className='contenedorDeProductos'>
 
-      {items ? (<ItemList itemList={items} />) : (<h2>Cargando...</h2>)}
+     {items ? (<ItemList itemList={items} />) : (<h2 className='cargando'>Cargando...</h2>)}
 
     </div>
   )
@@ -45,3 +45,6 @@ const ItemListContainer = ({ itemList }) => {
 };
 
 export default ItemListContainer
+
+
+//{items ? (<ItemList itemList={items} />) : (<h2 className='cargando'>Cargando...</h2>)}
