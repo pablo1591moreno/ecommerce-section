@@ -46,6 +46,5 @@ body{
     position: absolute;
     margin-top: 10%;
     width: 95%;    
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }

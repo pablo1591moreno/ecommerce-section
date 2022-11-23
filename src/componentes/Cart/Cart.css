@@ -1,5 +1,6 @@
 .productoComprado{
     background-color: white;
+    color: rgb(136, 116, 209);
     box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);    
     margin: 35px;
     border-radius: 10px; 
@@ -10,12 +11,13 @@
 }
 
 .infoProductoComprado{    
-    padding: 10px;
+    padding: 5px;
 }
 
 .precioTotal{
-    font-size: 30px;    
+    font-size: 25px;    
     padding: 10px;
+    color: rgb(136, 116, 209);
 }
 
 .eliminarProducto{
@@ -25,15 +27,18 @@ border: none;
     font-size: 20px;
     padding: 10px;
     width: 50px; 
+    color: rgb(136, 116, 209);
 }
 
 .button, .totalFinal{
     display: flex;
     justify-content: center;    
+    color: white;
 }
 
 .eliminarTodo{    
     background-color: white;
+    color: rgb(136, 116, 209);
     border: none;
     border-radius: 10px;
     font-weight: bold;
@@ -44,21 +49,20 @@ border: none;
 }
 
 .formulario{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(136, 116, 209);
     box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);  
     border-radius: 10px;  
     width: 30%;
     padding: 15px;
-    margin: 15px;   
-    
+    margin: 15px;       
 }
 
 label , input{       
         display: block;
     width: 98%;
     margin: 5px;
-    font-size: 19px;  
-         
+    font-size: 19px;           
 }
 
 label{
@@ -72,16 +76,20 @@ label{
 }
 
 .botonFormulario{
-    margin-top: 5px;
-    border: none;
-    font-weight: bold ;
-    border-radius: 10px;
-    font-size: 18px;
-    padding: 5px;
-    width: 200px;    
-
+    text-align: center;
 }
 
+.enviar{
+    background-color: rgb(136, 116, 209);  
+    color: white;
+    margin-top: 10px;
+    border: none;
+    font-weight: bolder;    
+    font-size: 18px;    
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+}
 
 .compraExitosa{
     display: flex;
@@ -91,4 +99,22 @@ label{
     border-radius: 10px;      
     padding: 15px;
     margin: 40vh 50px; 
+}
+
+.carritoVacio{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    color: white;       
+}
+
+.verProductos{
+    padding: 0;
+    margin: 0;
+    color: yellow;    
+}
+
+.carritoBacio{    
+    margin-top: 10%;
+    text-align: center;
 }

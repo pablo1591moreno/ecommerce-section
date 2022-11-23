@@ -66,8 +66,7 @@ const Cart = () => {
                         <div className='productoComprado' key={item.id}>
                             <div className='infoProductoComprado'>
                                 <h1>{item.nombre}</h1>
-                                <h3>Cantidad - {item.cantidad} / Precio x unidad ${item.precio}</h3>
-                                <h4>Detalles : {item.detalles} </h4>
+                                <h3>Cantidad - {item.cantidad} / Precio x unidad ${item.precio}</h3>                                
 
                             </div>
                             <h3 className='precioTotal' >${item.cantidad * item.precio}</h3>
@@ -94,14 +93,16 @@ const Cart = () => {
                                     <input type="text" />
                                     <label>Email:</label>
                                     <input type="email" />
-                                    <button className='botonFormulario' type="submit" >Enviar</button>
+                                    <div className='botonFormulario'>
+                                    <button className='enviar' type="submit" >Enviar</button>
+                                    </div>                                    
                                 </form>
                             </div>
                         </div> :
 
                         <div className="carritoBacio">
-                            <h1>CARRITO VACIO!!!</h1>
-                            <NavLink to='/'><h2>Ver productos</h2></NavLink>
+                            <h1 className='carritoVacio'>CARRITO VACIO!!!</h1>
+                            <NavLink to='/'><h2 className='verProductos' >Ver productos</h2></NavLink>
                         </div>
                     }
                 </div>
