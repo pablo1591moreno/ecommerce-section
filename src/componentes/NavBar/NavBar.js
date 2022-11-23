@@ -16,8 +16,8 @@ const Barra = () => {
             <div>
                 <div className="mainList" id="mainListDiv">
 
-
                     <ul>
+                        <CartWidget/>                                        
                         <NavLink to='/'><li>Inicio</li></NavLink>
                         <NavLink to='/productos/zapatillas'><li>Zapatillas</li></NavLink>
                         <NavLink to='/productos/remeras'><li>Remaras</li></NavLink>
@@ -28,7 +28,7 @@ const Barra = () => {
 
                 </div>
 
-                <CartWidget/>
+                
                 
 
             </div>
