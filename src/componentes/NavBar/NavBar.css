@@ -56,24 +56,47 @@ a {
   margin-right: 10px;  
 }
 
-.spinner {
-  border: 4px solid rgba(0, 0, 0, 0.1);
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border-left-color: #09f;
-  animation: spin 1s ease infinite;
+/*------------------------------------------------------------------MOVIL---------------------------------------------------------*/
+
+@media screen and (max-width: 475px) {
+ 
+.mainList{
+  margin-top: 25px;
+  margin-bottom: 25px;  
+  color: rgb(136, 116, 209);
+    
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+.nav{  
+  line-height: 35px;      
+  height: 35px;      
 }
+
+
+ ul{  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;  
+  margin: 0;
+  padding: 0;
+  gap: 0 15px ;
+ }
+
+ .nav div.mainList ul{
+  width: 100%;  
+ }
+
+ .nav div.mainList ul li{
+  text-align: center; 
+ }
+
+ a {
+  margin-right: 0;  
+}
+
+}
+
 
 
 

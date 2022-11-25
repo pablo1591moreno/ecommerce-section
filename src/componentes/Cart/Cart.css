@@ -6,8 +6,7 @@
     border-radius: 10px; 
     display: flex;    
     align-items: center;    
-    justify-content:space-evenly  
-     
+    justify-content:space-evenly       
 }
 
 .infoProductoComprado{    
@@ -92,13 +91,14 @@ label{
 }
 
 .compraExitosa{
+    color: rgb(136, 116, 209);  
     display: flex;
     justify-content: center;
     background-color: white;
     box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);  
     border-radius: 10px;      
     padding: 15px;
-    margin: 40vh 50px; 
+    margin: 35vh 50px; 
 }
 
 .carritoVacio{
@@ -114,7 +114,83 @@ label{
     color: yellow;    
 }
 
-.carritoBacio{    
+.carritoVacioVerProductos{    
     margin-top: 10%;
     text-align: center;
+}
+
+.confirmacion{
+    color: white;
+    text-align: center;
+}
+
+
+/*------------------------------------------------------------------MOVIL---------------------------------------------------------*/
+
+@media screen and (max-width: 700px) {
+
+    .productoComprado{              
+        margin: 20px;
+        border-radius: 10px; 
+        display: flex;    
+        align-items: center;    
+        justify-content:space-evenly       
+    }
+    
+    .infoProductoComprado{    
+       margin-left: 15px;
+    }
+    
+    .infoProductoComprado h1{    
+        font-size: 20px;
+    }
+    
+    .infoProductoComprado h3{    
+        font-size: 15px;
+    }
+
+    .precioTotal{
+        font-size: 20px;    
+        padding: 5px;
+        
+    }
+
+    .formulario{
+             width: 90%;
+        padding: 10px;
+        margin: 10px;     
+        margin-bottom: 20px;
+        
+    }
+
+    label , input{       
+    margin: 0;
+    margin-bottom: 5px;
+    }
+
+    .eliminarProducto{
+            padding: 5px;
+            width: 40px; 
+            margin-right: 15px;            
+        }
+
+        .carritoVacio{
+            font-size: 30px;           
+        }
+
+ .carritoVacioVerProductos{    
+    margin-top: 50%;
+  }
+
+.eliminarTodo{    
+  font-size: 18px;
+  padding: 8px;
+  margin: 15px;
+  width: 150px; 
+}
+
+.totalFinal{
+    margin-bottom: 10px;
+}
+
 }

@@ -11,13 +11,13 @@ const Barra = () => {
 
             <div className="logo">
                <h1 className='snake'>SNAKE</h1>
+                         <CartWidget/> 
             </div>
 
             <div>
                 <div className="mainList" id="mainListDiv">
 
                     <ul>
-                        <CartWidget/>                                        
                         <NavLink to='/'><li>Inicio</li></NavLink>
                         <NavLink to='/productos/zapatillas'><li>Zapatillas</li></NavLink>
                         <NavLink to='/productos/remeras'><li>Remaras</li></NavLink>
@@ -27,10 +27,7 @@ const Barra = () => {
                     </ul>
 
                 </div>
-
                 
-                
-
             </div>
 
         </nav>

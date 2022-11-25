@@ -38,3 +38,27 @@
              
 }
 
+
+/*------------------------------------------------------------------MOVIL---------------------------------------------------------*/
+
+@media screen and (max-width: 700px) {
+
+  .contenedorContador{
+    display: inline-block;
+  }
+
+
+  .sumaResta{  
+    margin-top: 20px;  
+    justify-content: center;
+  }
+
+  .boton{    
+    margin: 20px 0 50px 0;  
+             
+}
+
+
+
+  
+}

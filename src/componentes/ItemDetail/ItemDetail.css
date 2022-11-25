@@ -6,8 +6,7 @@
 
 .detalleDeProducto{
     margin-top: 20px;
-    display: flex;     
-        
+    display: flex;             
 }
 
 .detalleDeProducto img{
@@ -47,4 +46,55 @@
 
 .detalleTextoProductos .detalles{    
     word-wrap: break-word
+}
+
+/*------------------------------------------------------------------MOVIL---------------------------------------------------------*/
+
+@media screen and (max-width: 700px) {
+
+.detalleDeProducto{
+    display: inline;            
+    text-align: center;
+}
+
+.detalleDeProducto{
+    margin-top: 0;
+}
+
+.detalleDeProducto img{     
+  object-fit:cover;
+  width: 80%;
+  height:200px;
+  border-radius: 10px;
+  margin: 0;
+  box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);   
+}
+
+
+.detalleTextoProductos h1{
+    text-align: start;
+ font-size: 30px;
+ color: white; 
+ margin: 10px 40px;
+}
+
+.detalleTextoProductos .detalletxt{
+    text-align: start;
+    font-size: 25px;
+    color: white;   
+    margin: 10px 40px;
+}
+
+.detalleTextoProductos p{
+    text-align: start;
+    font-size: 18px;
+    color: white;
+    font-weight: bold; 
+    margin: 10px 40px;
+   }
+
+.detalleTextoProductos .detalles{    
+    word-wrap: break-word
+}
+
 }

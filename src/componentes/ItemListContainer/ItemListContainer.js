@@ -47,4 +47,3 @@ const ItemListContainer = ({ itemList }) => {
 export default ItemListContainer
 
 
-//{items ? (<ItemList itemList={items} />) : (<h2 className='cargando'>Cargando...</h2>)}

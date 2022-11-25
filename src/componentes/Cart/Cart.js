@@ -85,8 +85,9 @@ const Cart = () => {
                                 <button className='eliminarTodo' onClick={removerAll} >Eliminar Todo</button>
                             </div>
                             <hr></hr>
+                            <h1 className='confirmacion'>Ingresa tus datos y confirmar tu compra</h1>
                             <div className='contenedorFromulario' >
-                                <form className='formulario' onSubmit={enviarFormulario}  >
+                                    <form className='formulario' onSubmit={enviarFormulario}  >
                                     <label>Nombre:</label>
                                     <input type="text" />
                                     <label>Telefono:</label>
@@ -100,7 +101,7 @@ const Cart = () => {
                             </div>
                         </div> :
 
-                        <div className="carritoBacio">
+                        <div className="carritoVacioVerProductos">
                             <h1 className='carritoVacio'>CARRITO VACIO!!!</h1>
                             <NavLink to='/'><h2 className='verProductos' >Ver productos</h2></NavLink>
                         </div>
