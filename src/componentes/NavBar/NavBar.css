@@ -1,14 +1,16 @@
 .nav{
   margin-top: 30px;
-  width: 100%;
-  height: 65px;  
-  line-height: 40px;
+  width: 100%;    
   text-align: center;      
 }
 
 .nav div.logo h1{
   width: 180px;  
   position: absolute;  
+}
+
+.cajaCarrito{
+  margin-left: 92%;  
 }
 
 .snake{
@@ -24,20 +26,17 @@
   text-transform: uppercase;
 }
 
-.nav div.mainList{  
-  float: right;
-}
-
 .nav div.mainList ul {
-  width:95%;  
+  width: 100%;  
   display: flex;
   list-style: none; 
-  margin: 0;
+  margin: 5px 0 30px;
   padding: 0;   
+  justify-content: space-around;
 }
 
 .nav div.mainList ul li {
-  width: 110px;    
+  width: 100%;      
 }
 
 .nav div.mainList ul li {
