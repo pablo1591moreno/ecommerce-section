@@ -1,6 +1,5 @@
 import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget'
-import snake from '../NavBar/Img/snake.png'
 import { NavLink } from 'react-router-dom'
 
 const Barra = () => {
@@ -11,7 +10,7 @@ const Barra = () => {
 
             <div className="logo">
                <h1 className='snake'>SNAKE</h1>
-                         <CartWidget/> 
+               <span><CartWidget/></span>  
             </div>
 
             <div>

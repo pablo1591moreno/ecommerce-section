@@ -1,97 +1,58 @@
+/*------------------------------------------------------------------DESKTOP---------------------------------------------------------*/
+
 .nav{
-  margin-top: 30px;
-  width: 100%;    
-  text-align: center;      
+  margin-top: 30px;   
 }
 
-.nav div.logo h1{
-  width: 180px;  
-  position: absolute;  
-}
-
-.cajaCarrito{
-  margin-left: 92%;  
-}
-
-.snake{
-  color: white;
-  margin: 0;
+.snake{  
+  margin: 0 0 0 30px;
   font-size: 40px;
 }
 
-.nav div.logo a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.8em;
-  text-transform: uppercase;
-}
-
-.nav div.mainList ul {
-  width: 100%;  
+.nav div.logo{
   display: flex;
+  gap: 74%;
+}
+
+
+.nav div.mainList ul {  
+  display: flex;
+  justify-content:center;
+  gap: 35px;
   list-style: none; 
-  margin: 5px 0 30px;
   padding: 0;   
-  justify-content: space-around;
 }
 
-.nav div.mainList ul li {
-  width: 100%;      
-}
-
-.nav div.mainList ul li {
-  color: #fff;  
-  text-transform: uppercase;
-  font-weight: bold;  
-}
-
-
-.nav div.mainList ul li :hover{
-  color: #e2e0e0;  
+.nav div.mainList ul li {  
+  text-transform: uppercase;  
 }
 
 a {
-  text-decoration: none;
-  margin-right: 10px;  
+  text-decoration: none;    
+}
+
+a:hover {  
+  font-weight: bold; 
 }
 
 /*------------------------------------------------------------------MOVIL---------------------------------------------------------*/
 
 @media screen and (max-width: 475px) {
  
-.mainList{
-  margin-top: 25px;
-  margin-bottom: 25px;  
-  color: rgb(136, 116, 209);
-    
+.nav div.logo{
+  display: flex;
+  gap: 40%;
 }
-
-.nav{  
-  line-height: 35px;      
-  height: 35px;      
-}
-
 
  ul{  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;  
-  margin: 0;
-  padding: 0;
-  gap: 0 15px ;
+  margin-bottom: 30px;
  }
-
- .nav div.mainList ul{
-  width: 100%;  
- }
-
- .nav div.mainList ul li{
-  text-align: center; 
- }
-
- a {
-  margin-right: 0;  
+ .nav div.mainList ul {    
+  gap: 10px 40px;  
 }
 
 }
