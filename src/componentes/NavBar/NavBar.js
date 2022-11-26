@@ -20,8 +20,7 @@ const Barra = () => {
                         <NavLink to='/'><li>todo</li></NavLink>
                         <NavLink to='/productos/zapatillas'><li>Zapatillas</li></NavLink>
                         <NavLink to='/productos/remeras'><li>Remaras</li></NavLink>
-                        <NavLink to='/productos/pantalones'><li>Pantalones</li></NavLink>
-                        <NavLink to='/contacto'><li>Contacto</li></NavLink>
+                        <NavLink to='/productos/pantalones'><li>Pantalones</li></NavLink>                      
 
                     </ul>
 
