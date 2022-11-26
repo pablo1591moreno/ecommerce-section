@@ -127,7 +127,7 @@ label{
 
 /*------------------------------------------------------------------MOVIL---------------------------------------------------------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 475px) {
 
     .productoComprado{              
         margin: 20px;

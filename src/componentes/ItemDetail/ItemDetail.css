@@ -11,7 +11,7 @@
 
 .detalleDeProducto img{
     object-fit:cover;
-  width:400px;
+  width:300px;
   height:300px;
   border-radius: 10px;
   margin: 0 30px 0 0;
@@ -19,27 +19,26 @@
 }
 
 .detalleTextoProductos{
-    width: 400px;        
+    width: 300px;           
 }
 
 .detalleTextoProductos h1{
- font-size: 35px;
+ font-size: 1.5rem;
  color: white;
  padding: 0;
  margin: 0;
 }
 
 .detalleTextoProductos h2{
-    font-size: 25px;
+    font-size: 1.5rem;
     color: white;  
     padding: 0;
     margin: 10px 0;  
 }
 
 .detalleTextoProductos p{
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
+    font-size: 1rem;
+    color: white;    
     padding: 0;
     margin: 10px 0;
    }

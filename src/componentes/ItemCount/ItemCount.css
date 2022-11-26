@@ -1,14 +1,28 @@
 .sumaResta { 
   background-color: rgb(255, 255, 255); 
-    height: 40px;
-    width: 180px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    border-radius: 10px;    
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 40px;    
+  border-radius: 10px;    
+  height: 34px;
+  width: 180px;
   }
-  
+
+  .agregarCarrito{
+    font-size: .9rem;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(136, 116, 209);
+    border: none;
+    font-weight: bold;    
+    padding: 8px;
+    border-radius: 10px;
+    height: 34px;
+    width: 180px;  
+}
+
+
+
    .sumaResta h2{
     color: rgb(136, 116, 209);
    }
@@ -22,16 +36,10 @@
     border: none;
 }
 
-  .agregarCarrito{
-    background-color: rgb(255, 255, 255); 
-    color: rgb(136, 116, 209);
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 10px;
-    width: 180px;  
+.contador{
+  background-color:transparent;
 }
+
 
 .boton{    
     margin-top: 20px;  
@@ -41,7 +49,7 @@
 
 /*------------------------------------------------------------------MOVIL---------------------------------------------------------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 475px) {
 
   .contenedorContador{
     display: inline-block;

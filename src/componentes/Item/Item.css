@@ -48,7 +48,7 @@ object-fit: cover;
 
 /*------------------------------------------------------------------MOVIL---------------------------------------------------------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 475px) {
 
 .contenedorDeProductos{
     display: grid;
