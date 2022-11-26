@@ -2,8 +2,12 @@
 /* -----ESTILOS GENERALES------ */
 *{
     font-size: 18px;
-    color: #fff;  
-    background-color: rgb(136, 116, 209); 
+    color: #fff;      
     font-family: 'Alexandria', sans-serif;
   }
+
+body{
+  background-color: rgb(136, 116, 209); 
+}
+
   /* --------------------------- */

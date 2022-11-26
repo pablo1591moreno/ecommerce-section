@@ -65,8 +65,8 @@ const Cart = () => {
 
                         <div className='productoComprado' key={item.id}>
                             <div className='infoProductoComprado'>
-                                <h1>{item.nombre}</h1>
-                                <h3>Cantidad - {item.cantidad} / Precio x unidad ${item.precio}</h3>                                
+                                <h1 className='carNombre' >{item.nombre}</h1>
+                                <h3 className='cantidadPrecio'  >Cantidad - {item.cantidad} / Precio x unidad ${item.precio}</h3>                                
 
                             </div>
                             <h3 className='precioTotal' >${item.cantidad * item.precio}</h3>

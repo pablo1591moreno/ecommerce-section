@@ -1,36 +1,29 @@
-
 button.botonCarrito  {      
    display: flex;
    align-items: center;
-   background-color: rgba(255, 255, 255, 0);   
-   border: 1px solid #ffffff7c;
-   border-radius: 5px;
+   background-color: transparent;
+   border: 1.5px solid #ffffff;
+   border-radius: 5px;      
+}
+
+button.botonCarrito:hover {
+   background-color: #ffffff8e; 
    transition-duration: 0.5s;     
 }
 
-
-button.botonCarrito:hover {
-   background-color: #ffffff79; 
-   color: white;
-}
-
-
-  .unidadesEnCarrito{
-   
-      font-size: 18px;
-      font-weight:normal;
-      color: white;   
+  .unidadesEnCarrito{   
+      font-size: 1rem;            
       padding: 5px;           
   }
   
-.nidadCarritoCero{
+.CarritoCero{
    display:none;
 }
 
 
 /*------------------------------------------------------------------MOVIL---------------------------------------------------------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 475px) {
 
 
    button.botonCarrito  {      

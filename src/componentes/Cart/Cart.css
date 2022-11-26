@@ -1,7 +1,7 @@
 .productoComprado{
     background-color: white;
     color: rgb(136, 116, 209);
-    box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);    
+    box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.39);      
     margin: 35px;
     border-radius: 10px; 
     display: flex;    
@@ -9,73 +9,91 @@
     justify-content:space-evenly       
 }
 
-.infoProductoComprado{    
-    padding: 5px;
+.infoProductoComprado, .carNombre, .cantidadPrecio, .precioTotal{
+    background-color: transparent;
+    color: rgb(136, 116, 209);
 }
 
-.precioTotal{
-    font-size: 25px;    
-    padding: 10px;
-    color: rgb(136, 116, 209);
+.carNombre, .precioTotal{
+    font-size: 1.4rem;      
 }
 
 .eliminarProducto{
-border: none;
-    border-radius: 10px;
+    border: none;    
     font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-    width: 50px; 
+    font-size: 1.5rem;     
+    background-color: transparent;
     color: rgb(136, 116, 209);
 }
+
+.eliminarProducto:hover{
+    background-color: rgb(136, 116, 209);
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
 
 .button, .totalFinal{
     display: flex;
     justify-content: center;    
-    color: white;
+}
+
+.totalFinal{
+    font-size: 1.5rem;
 }
 
 .eliminarTodo{    
     background-color: white;
     color: rgb(136, 116, 209);
     border: none;
+    font-size: .8rem;     
     border-radius: 10px;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: bold;    
     padding: 10px;
-    margin: 20px;
-    width: 170px; 
+    margin: 10px;
+    width: 160px; 
+    box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.219);    
 }
+
+.eliminarTodo:hover{
+background-color: rgb(136, 116, 209);
+color: white;
+transition-duration: 0.5s;
+}
+
 
 .formulario{
     background-color: rgb(255, 255, 255);
-    color: rgb(136, 116, 209);
-    box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);  
+    box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.39);    
     border-radius: 10px;  
     width: 30%;
     padding: 15px;
-    margin: 15px;       
+    margin: 15px; 
+          
 }
 
-label , input{       
-        display: block;
+label , input{        
+    color: rgb(136, 116, 209);
+    display: block;
     width: 98%;
     margin: 5px;
-    font-size: 19px;           
+    font-size: .8rem;           
 }
 
-label{
-    font-weight: bold ;
+input{
+    border: solid 1px rgb(136, 116, 209);
+    border-radius: 5px;  
 }
+
 
 .contenedorFromulario{    
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 .botonFormulario{
-    text-align: center;
+    text-align: center;     
 }
 
 .enviar{
@@ -88,6 +106,12 @@ label{
     padding: 5px;
     width: 50%;
     border-radius: 10px;
+}
+
+.enviar:hover{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(136, 116, 209);  
+    transition-duration: 0.5s;     
 }
 
 .compraExitosa{
@@ -122,6 +146,7 @@ label{
 .confirmacion{
     color: white;
     text-align: center;
+    font-size: 1.3rem;
 }
 
 

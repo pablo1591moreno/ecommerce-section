@@ -17,7 +17,7 @@ const Barra = () => {
                 <div className="mainList" id="mainListDiv">
 
                     <ul>
-                        <NavLink to='/'><li>Inicio</li></NavLink>
+                        <NavLink to='/'><li>todo</li></NavLink>
                         <NavLink to='/productos/zapatillas'><li>Zapatillas</li></NavLink>
                         <NavLink to='/productos/remeras'><li>Remaras</li></NavLink>
                         <NavLink to='/productos/pantalones'><li>Pantalones</li></NavLink>

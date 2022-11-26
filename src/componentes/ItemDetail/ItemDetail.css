@@ -15,7 +15,7 @@
   height:300px;
   border-radius: 10px;
   margin: 0 30px 0 0;
-  box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);   
+  box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.39);     
 }
 
 .detalleTextoProductos{
@@ -68,7 +68,6 @@
   margin: 0;
   box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);   
 }
-
 
 .detalleTextoProductos h1{
     text-align: start;

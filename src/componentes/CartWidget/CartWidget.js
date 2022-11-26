@@ -16,7 +16,7 @@ const CartWidget = () => {
             <div className='cajaCarrito' >
                 <button className='botonCarrito' type="button">
                     <img src={carritoCompra} width={"35px"} alt="Carrito" />
-                    <span className={productosEnCarrito > 0 ? "unidadesEnCarrito" : "nidadCarritoCero"}>{productosEnCarrito}</span>
+                    <span className={productosEnCarrito > 0 ? "unidadesEnCarrito" : "CarritoCero"}>{productosEnCarrito}</span>
                 </button>
             </div>
         </Link>

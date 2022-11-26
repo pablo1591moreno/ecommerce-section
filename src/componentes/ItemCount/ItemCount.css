@@ -1,27 +1,33 @@
 .sumaResta { 
-  background-color: rgb(255, 255, 255); 
   display: flex; 
   justify-content: center;
   align-items: center;
+  width: 180px;
+  height: 34px;
   gap: 40px;    
   border-radius: 10px;    
-  height: 34px;
-  width: 180px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.39); 
   }
 
+
   .agregarCarrito{
-    font-size: .9rem;
-    background-color: rgb(255, 255, 255); 
-    color: rgb(136, 116, 209);
-    border: none;
-    font-weight: bold;    
-    padding: 8px;
-    border-radius: 10px;
-    height: 34px;
     width: 180px;  
+    height: 34px;
+    padding: 8px;
+    font-size: .9rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;    
+    color: rgb(136, 116, 209);
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.39); 
 }
 
-
+.agregarCarrito:hover{
+  background-color: rgb(136, 116, 209);
+  color: white;
+}
 
    .sumaResta h2{
     color: rgb(136, 116, 209);
@@ -32,17 +38,12 @@
     color: rgb(136, 116, 209);
     width: 15px;
     font-weight: bold;
-    font-size: 25px;  
+    font-size: 1.4rem;  
     border: none;
 }
 
-.contador{
-  background-color:transparent;
-}
-
-
 .boton{    
-    margin-top: 20px;  
+    margin-top: 15px;  
              
 }
 
