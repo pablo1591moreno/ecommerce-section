@@ -54,6 +54,7 @@
 .detalleDeProducto{
     display: inline;            
     text-align: center;
+    width: 100%;
 }
 
 .detalleDeProducto{
@@ -63,32 +64,35 @@
 .detalleDeProducto img{     
   object-fit:cover;
   width: 80%;
-  height:200px;
+  height: 150px;
   border-radius: 10px;
   margin: 0;
   box-shadow: 10px 10px 26px -4px rgba(0, 0, 0, 0.158);   
 }
 
+.detalleTextoProductos{
+    width: 100%;
+}
+
 .detalleTextoProductos h1{
     text-align: start;
- font-size: 30px;
+ font-size: 1.2rem;
  color: white; 
- margin: 10px 40px;
+ margin: 5px 40px;
 }
 
 .detalleTextoProductos .detalletxt{
     text-align: start;
-    font-size: 25px;
+    font-size: 1rem;
     color: white;   
-    margin: 10px 40px;
+    margin: 5px 40px;
 }
 
 .detalleTextoProductos p{
     text-align: start;
-    font-size: 18px;
-    color: white;
-    font-weight: bold; 
-    margin: 10px 40px;
+    font-size: 1rem;
+    color: white;    
+    margin: 5px 40px;
    }
 
 .detalleTextoProductos .detalles{    

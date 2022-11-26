@@ -66,8 +66,8 @@ const Cart = () => {
                         <div className='productoComprado' key={item.id}>
                             <div className='infoProductoComprado'>
                                 <h1 className='carNombre' >{item.nombre}</h1>
-                                <h3 className='cantidadPrecio'  >Cantidad - {item.cantidad} / Precio x unidad ${item.precio}</h3>                                
-
+                                <h3 className='cantidadPrecio'  >Cantidad - {item.cantidad}</h3>                                
+                                <h3 className='cantidadPrecio' >Precio x unidad ${item.precio}</h3>
                             </div>
                             <h3 className='precioTotal' >${item.cantidad * item.precio}</h3>
                             <button className='eliminarProducto' onClick={() => removerItem(item.id)}>X</button>

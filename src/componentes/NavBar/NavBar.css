@@ -50,10 +50,14 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;  
-  margin-bottom: 30px;
+  margin-bottom: 20px;
  }
  .nav div.mainList ul {    
   gap: 10px 40px;  
+}
+
+li{
+  font-size: .9rem;
 }
 
 }

@@ -155,7 +155,7 @@ input{
 @media screen and (max-width: 475px) {
 
     .productoComprado{              
-        margin: 20px;
+        margin: 10px;
         border-radius: 10px; 
         display: flex;    
         align-items: center;    
@@ -168,10 +168,12 @@ input{
     
     .infoProductoComprado h1{    
         font-size: 20px;
+        margin: 10px 0 10px;
     }
     
     .infoProductoComprado h3{    
         font-size: 15px;
+        margin: 0 0 10px;
     }
 
     .precioTotal{
@@ -181,7 +183,7 @@ input{
     }
 
     .formulario{
-             width: 90%;
+        width: 90%;
         padding: 10px;
         margin: 10px;     
         margin-bottom: 20px;
