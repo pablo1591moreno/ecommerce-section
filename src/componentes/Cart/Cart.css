@@ -167,12 +167,12 @@ input{
     }
     
     .infoProductoComprado h1{    
-        font-size: 20px;
+        font-size: 1.1rem;
         margin: 10px 0 10px;
     }
     
     .infoProductoComprado h3{    
-        font-size: 15px;
+        font-size: .9rem;
         margin: 0 0 10px;
     }
 
@@ -202,15 +202,15 @@ input{
         }
 
         .carritoVacio{
-            font-size: 30px;           
+            font-size: 2.1rem;           
         }
 
  .carritoVacioVerProductos{    
-    margin-top: 50%;
+    margin-top: 40%;
   }
 
 .eliminarTodo{    
-  font-size: 18px;
+  font-size: 1rem;
   padding: 8px;
   margin: 15px;
   width: 150px; 
