@@ -1,4 +1,4 @@
-# Ecommerce (en proceso)
+# Ecommerce
 
 Ecommerce con estetica minimalista 
 
