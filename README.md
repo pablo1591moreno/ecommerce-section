@@ -1,6 +1,6 @@
 # Ecommerce
 
-Ecommerce con estetica minimalista 
+Ecommers de estilo minimalista con productos cargados desde la base de datos firebase, cuenta con carrito de compra que al concretar la compra genera un codigo de para saber el estado de la misma.
 
 ## Recursos utilizados
 
