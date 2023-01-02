@@ -10,7 +10,7 @@ Ecommers de estilo minimalista con productos cargados desde la base de datos fir
 - REACT JS 
 - FIREBASE (consumo de datos)
 
-## Ejemplo en vivo
+## Ejemplo en vivo 
 https://pablo1591moreno.github.io/ecommerce-section/
 
 ## IMAGEN
